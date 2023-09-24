@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;">
+    <img height="200px" width="200px" [src]="cPeliculaObtenido.fotoPelicula" class="card-img-top" alt="{{ cPeliculaObtenido.nombre }}">
+    <div class="card-body">
+        <h3>Detalle de pelicula!</h3>
+        <input type="text" [(ngModel)]="cPeliculaObtenido.nombre" class="form-control" placeholder="Nombre">
+        <input type="text" [(ngModel)]="cPeliculaObtenido.tipo" class="form-control" placeholder="Tipo">
+        <input type="text" [(ngModel)]="cPeliculaObtenido.fechaEstreno" class="form-control" placeholder="Fecha de estreno">
+        <button class="btn btn-danger" >Limpiar</button>
+    </div>
+</div>

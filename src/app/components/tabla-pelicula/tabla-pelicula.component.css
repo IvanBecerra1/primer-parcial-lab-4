@@ -1,0 +1,4 @@
+.fila-seleccionada {
+    background-color: blueviolet; /* Cambia el color de fondo al seleccionar una fila */
+    cursor: pointer; /* Cambia el cursor al estar sobre la fila */
+  }
